@@ -15,7 +15,7 @@ Quotes = ["Creationists make it sound like a 'theory' is something you dreamt up
 
 def main():
 	while True:
-		TimeWait = (random.randint(5,10)) # | print(TimeWait)
+		TimeWait = (random.randint(5,10))
 		print (random.choice(Quotes))
 		time.sleep(TimeWait)
 		continue
