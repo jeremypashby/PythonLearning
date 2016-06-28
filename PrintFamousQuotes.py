@@ -13,8 +13,11 @@ Quotes = ["Creationists make it sound like a 'theory' is something you dreamt up
 "A man is accepted into a church for what he believes and he is turned out for what he knows.: Samuel Clemens"
 ]
 
-while True:
-	TimeWait = (random.randint(5,10)) # | print(TimeWait)
-	print (random.choice(Quotes))
-	time.sleep(TimeWait)
-	continue
+def main():
+	while True:
+		TimeWait = (random.randint(5,10)) # | print(TimeWait)
+		print (random.choice(Quotes))
+		time.sleep(TimeWait)
+		continue
+
+main()
