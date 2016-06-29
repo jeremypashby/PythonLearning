@@ -9,9 +9,8 @@ def translate():
 	consonant = ("bcdfghjklmnpqrstvwxyz")
     	for char in StartWord:
         	if char in consonant:
-        		#print char
-        		StartWord = StartWord.replace(char, char + 'o' + char)
-    	print StartWord
+        		FinishWord = StartWord.replace(char, char + 'o' + char)
+    			print FinishWord
 	
 if __name__ == "__main__":
 	translate()
