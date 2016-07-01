@@ -7,5 +7,9 @@ def is_palindrome():
 	else:
 		print "It is not a palindrome"
 
-if __name__ == "__main__":
+
+def main():
 	is_palindrome()
+
+if __name__ == "__main__":
+	main()

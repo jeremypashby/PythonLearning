@@ -22,7 +22,9 @@ def max_of_three():
 			print ("Number3 wins " + str(Number3))
 			break
 
-	 			
+	 	
+def main():
+	max_of_three()	 			
 
 if __name__ == "__main__":
-	max_of_three()
+	main()

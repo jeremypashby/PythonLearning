@@ -7,8 +7,6 @@ def sum1():
 	result = sum(x)
 	print ("Addition =" + str(result))
 
-if __name__ == "__main__":
-	sum1()
 
 def multiply1():
 
@@ -16,7 +14,13 @@ def multiply1():
 	print ("Multiply =" + str(result))
 		
 
-if __name__ == "__main__":
+
+def main():
+	sum1()
 	multiply1()
+
+if __name__ == "__main__":
+	main()
+
 
 

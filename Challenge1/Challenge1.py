@@ -12,5 +12,9 @@ def max():
 			print ("Number2 wins " + str(Number2))
 			break
 
-if __name__ == "__main__":
+
+def main():
 	max()
+
+if __name__ == "__main__":
+	main()
