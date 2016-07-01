@@ -9,5 +9,8 @@ def StringLength():
 	print(Length)
 
 
-if __name__ == "__main__":
+def main():
 	StringLength()
+
+if __name__ == "__main__":
+	main()

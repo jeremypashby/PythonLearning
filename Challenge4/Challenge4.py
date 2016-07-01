@@ -14,5 +14,12 @@ def VowelCheck():
 	if Letter in consonant:  
 		print 'consonant'
 
-if __name__ == "__main__":
+
+
+
+def main():
 	VowelCheck()
+
+
+if __name__ == "__main__":
+	main()
