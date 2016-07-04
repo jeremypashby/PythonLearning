@@ -2,11 +2,11 @@ def histogram():
 	x = [4, 9, 7, 10]
 	for number in x:
 		result = number * '*'
-	return result
+		print result
 
 
 def main():
-	print histogram()
+	histogram()
 
 
 if __name__ == "__main__":
