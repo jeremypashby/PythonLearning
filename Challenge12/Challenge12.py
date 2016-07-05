@@ -1,13 +1,19 @@
-def histogram():
-	x = [4, 9, 7, 10]
-	for number in x:
-		result = number * '*'
-		print result
+def histogram(numbers):
+    result = []
+    for number in numbers:
+        result.append(number * '*')
+    return result
+
+
+def printresult(results):
+    for result in results:
+        print result
 
 
 def main():
-	histogram()
+    NUMS = [4, 9, 7, 10]
+    printresult(histogram(NUMS))
 
 
 if __name__ == "__main__":
-	main()
+    main()
