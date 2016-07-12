@@ -1,50 +1,20 @@
-#def main():
-element = "Spenglerium"
-sym = raw_input("enter in symbol: ")
-finalsym = []
-for i in sym:
-	if len(sym) != 2:
-		print "invalid!"
-		break
-	elif i in element:
-	  	finalsym += i
-	  	#print finalsym
-if len(finalsym) != 2:
-	print "nope"
-if len(finalsym) == 2:
-	for j in finalsym:
-		if j in element:
-			print element.index(j)
+def main():
+    element = "Spenglerium"
+    sym = raw_input("Enter a symbol:")
+    length = len(element)
 
-			#print j
-			#print "yes"
+    if len(sym) != 2:
+        return False
+    if sym[0] not in element:
+        return False
+    if sym[1] not in element:
+        return False
 
-# print finalsym
-# for x in finalsym:
-# 	if x in element:
-# 		print "yes"
-# 		return True
-# 	if len(finalsym) != 2:
-# 		print "no"
-# 		return False
-# 	else:
-# 		return False
+    for i in range(0, length):
+        if sym[0] == element[i]:
+            for j in range(i + 1, length):
+                if sym[1] == element[j]:
+                    return True
+    return False
 
-
-
-
-
-
-		#  	#return True
-		#  	print finalsym
-		# if i not in element:
-		# 	#return False
-		#  	print "nope! not in here"
-		# 	return False
-		# else:
-		#  	finalsym += i
-		#  	#print finalsym
-		#  	return True
-		
-
-#print main()
+print main()
