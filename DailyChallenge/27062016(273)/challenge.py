@@ -1,5 +1,7 @@
+import math
+
 def convert(value):
-	import math
+
 
 	number = float(value[:-2])
 	firstarg = value[-2]
