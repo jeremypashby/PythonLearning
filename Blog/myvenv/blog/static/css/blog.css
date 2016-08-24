@@ -5,10 +5,13 @@ h1 a {
 
 body {
     padding-left: 15px;
+    /*background-color: #FAEBD7;*/
+    /*background-image: url(pic.jpg)*/
 }
 
 
 .page-header {
+    text-align: center;
     background-color: #1400ff;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
@@ -21,7 +24,8 @@ body {
 }
 
 .content {
-    margin-left: 40px;
+    justify-content:: center;
+    /*margin-left: 40px;*/
 }
 
 h1, h2, h3, h4 {
@@ -57,4 +61,8 @@ h1, h2, h3, h4 {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+.image {
+  content: url(logo.png);
 }
